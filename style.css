@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+      font-size: 130%;
+      margin-top: 50px;
+      background-color: rgba(93, 66, 32, 0.741);
+      
+  }
+  h1{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+    background-color: rgb(215, 230, 231);
+    border-radius: 50%;
+  }
+  
+  .wrapper {
+    width: 550px;
+      margin: 0 auto;
+  }
+
+  div{
+    margin-bottom: 20px;
+  }
+
+  label {
+    width: 200px;
+      float: left;
+      position: relative;
+      top: 12px;
+  }
+  
+  input {
+    width: 320px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 12px 5px;
+  }
+  #submitbutton{
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+  }
+  
+  
+  .fomelement {
+    margin-bottom: 15px;
+  }
+  
+  #errors {
+    color: red;
+    font-size: 90%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width:  500px;
+    height: auto;
+    
+  }
+  
+  #success {
+    color: green;
+    font-size: 90%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width:  500px;
+    height: auto;
+
+  }
+  
