@@ -4,13 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Form Validation System</title>
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
+
+  <div class="container">
     <h1><strong>Form-Validation</strong></h1>
- 
-    
+    <div id="errors"></div>
+    <div id="success"></div>
     <div class="wrapper">
       <div class="formelement">
         <label for="Email">Email</label>
@@ -18,12 +20,13 @@
       </div>
       <div class="formelement">
         <label for="phoneno">Phone Number</label>
-        <input type="text" name="phoneno" id="phoneno" />
+        <input type="tel" name="phoneno" id="phoneno" maxlength="10" />
+
       </div>
       <div class="formelement">
         <label for="password">Password</label>
         <input type="password" name="password" id="password" />
-        
+       <input type="checkbox" id="togglePassword" />Show Password
       </div>
       <div class="formelement">
         <label for="confirmpassword">Confirm Password</label>
@@ -31,8 +34,8 @@
       </div>
       <input type="submit" id="submitbutton" value="Submit" />
     </div>
-    <div id="errors"></div>
-    <div id="success"></div>
+  </div>
+  
 
   <script src="script.js"></script>
 </body>
