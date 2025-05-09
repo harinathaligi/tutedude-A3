@@ -1,9 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-      font-size: 130%;
-      margin-top: 50px;
-      background-color: rgba(93, 66, 32, 0.741);
-      
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
   }
   h1{
     text-align: center;
@@ -11,22 +14,24 @@ body {
     text-decoration-line: underline;
     background-color: rgb(215, 230, 231);
     border-radius: 50%;
+  } 
+  .container {
+    text-align: left;
   }
   
   .wrapper {
     width: 550px;
-      margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   }
-
-  div{
-    margin-bottom: 20px;
-  }
-
+  
   label {
     width: 200px;
-      float: left;
-      position: relative;
-      top: 12px;
+    float: left;
+    position: relative;
+    top: 12px;
   }
   
   input {
@@ -36,34 +41,39 @@ body {
     border-radius: 5px;
     padding: 5px 5px 12px 5px;
   }
-  #submitbutton{
-    margin-left: 200px;
-    margin-bottom: 100px;
-
+  
+div{
+    margin-bottom: 20px;
   }
-  
-  
+
+  #togglePassword{
+    width: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+  }
   .fomelement {
     margin-bottom: 15px;
+    
   }
   
   #errors {
     color: red;
     font-size: 90%;
     margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
     border: 2px solid black;
-    width:  500px;
-    height: auto;
-    
+    border-radius: 2em;
   }
   
   #success {
     color: green;
     font-size: 90%;
     margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
     border: 2px solid black;
-    width:  500px;
-    height: auto;
-
+    border-radius: 2em;
   }
-  
+
